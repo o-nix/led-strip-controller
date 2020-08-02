@@ -7,3 +7,22 @@
   ```bash
   nodemcu-tool --port=/dev/tty.usbserial-1420 upload init.lua
   ```
+  
+## Arduino
+
+* Change the PIN
+* Compile and upload via PlatformIO
+
+## Wi-Fi Configuration
+
+* Add the power source
+* Connect to an access point with the name starting as `LEDStripController`
+* Set target AP settings
+* Check that you have a new connected device
+
+## Commands format
+
+* Connect to the device: `telnet IP 22`
+* Every command is in format `@123#00ffaa` where:
+  * `@123` is the LED's number, starting from 0
+  * `#00ffaa` is the desired color
