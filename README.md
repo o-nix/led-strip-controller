@@ -26,3 +26,4 @@
 * Every command is in format `@123#00ffaa` where:
   * `@123` is the LED's number, starting from 0
   * `#00ffaa` is the desired color
+* Batch mode is supported, e.g. `@0#00000f@1#000f00@2#0f0000`
